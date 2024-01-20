@@ -1,0 +1,102 @@
+/* Add the following styles to your existing styles.css */
+
+.topic {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.repo-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pagination {
+    margin-top: 10px;
+}
+
+#pagination button {
+    margin-right: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #45a049;
+}
+
+/* Add your existing CSS styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.repo-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.topic {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+}

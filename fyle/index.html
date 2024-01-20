@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Repositories</title>
+</head>
+<body>
+    <div id="app">
+        <h1>GitHub Repositories</h1>
+        <form id="github-form">
+            <label for="username">GitHub Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="perPage">Repositories Per Page:</label>
+            <select id="perPage" name="perPage">
+                <option value="10">10</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+            </select>
+            <label for="searchQuery">Search Repositories:</label>
+            <input type="text" id="searchQuery" name="searchQuery">
+            <button type="button" onclick="fetchRepositories()">Show Repositories</button>
+        </form>
+        <div id="repositories-list"></div>
+        <div id="pagination"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
